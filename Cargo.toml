@@ -1,0 +1,25 @@
+[package]
+name = "simple_decode_code"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.26"
+exonum = "1.0.0"
+exonum-cli = "1.0.0"
+exonum-crypto = "1.0.0"
+exonum-derive = "1.0.0"
+exonum-merkledb = "1.0.0"
+exonum-proto = "1.0.0"
+exonum-rust-runtime = "1.0.0"
+exonum-supervisor = "1.0.0"
+exonum_sodiumoxide = "0.0.23"
+hex = "0.3.2"
+protobuf = "=2.14.0"
+structopt = "0.3.13"
+itertools = "0.9.0"
+
+[build-dependencies]
+protoc-rust = "2.0"
